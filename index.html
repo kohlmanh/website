@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kohlman Harshbarger CV</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: 'Courier New', monospace;
+            color: black;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+            color: black;
+        }
+
+        .header a {
+            color: blue; /* HTML blue color for the link */
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            display: none;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: white;
+            font-size: 1.1em;
+            color: blue; /* HTML blue for dropdown text */
+            border: 2px solid blue;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            max-height: 300px; /* Limit height for scroll */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+
+        #bouncing-container {
+            position: relative;
+            width: 100vw;
+            height: 60vh;
+            overflow: hidden;
+        }
+
+        .bouncing-image {
+            position: absolute;
+            width: 300px; /* Increased image size */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section with name and dropdown arrow -->
+    <div class="header">
+        <span>Kohlman Harshbarger</span> 
+        (<a id="toggle-cv" href="#">▼</a>)
+    </div>
+
+    <!-- Hidden CV section that will be displayed on click -->
+    <div id="cv" class="dropdown">
+        <p><b>B. 1993 Boston, MA. Lives and works in New York City</b></p>
+        
+        <p><b>SELECTED SOLO GALLERY SHOWS:</b><br>
+        2024 “Cute Kills”, Preachers Valley, NYC</p>
+
+        <p><b>SELECTED GROUP SHOWS:</b><br>
+        2024 “Show of Stolen Goods”, U-Haul Gallery, New York<br>
+        2024 “SPIT II”, Preachers Valley, New York<br>
+        2023 "RATHAUS", 328 E 14th, New York<br>
+        2023 “Nothing But Trouble”, All Street, New York<br>
+        2023 “Prix Fixe”, Underland Gallery, Brooklyn<br>
+        2023 “SPIT”, Preachers Valley, New York<br>
+        2023 “The Patriot”, O'Flaherty's, New York<br>
+        2023 “Hot Dog: A Group Show”, Triggering DJ, Brooklyn<br>
+        2022 "For the Trees", New York Arts Association, Brooklyn<br>
+        2021 "Annual Auction", Bailey House x Artsy, Online<br>
+        2020 "Annual Auction", Flux Factory x Artsy, Online<br>
+        2018 "Transient Space", Design Manchester Festival<br>
+        2017 "Holiday Market", Museum Quality Gallery, Brooklyn</p>
+
+        <p><b>PRESS:</b><br>
+        <a href="https://news.artnet.com/art-world/uhaul-gallery-stolen-from-work-2546344" target="_blank">https://news.artnet.com/art-world/uhaul-gallery-stolen-from-work-2546344</a>
+        </p>
+    </div>
+
+    <!-- Bouncing images container -->
+   
